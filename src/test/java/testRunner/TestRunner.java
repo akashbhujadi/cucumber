@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
         glue = "stepDefinations",
         dryRun=false,
         monochrome = true,
-        plugin = {"pretty","html:testOutput/index.html"}
+        plugin = {"pretty","html:testOutput/index.html"},
+        tags = "not @prod"
 
 
 )

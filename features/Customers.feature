@@ -6,7 +6,7 @@ Feature: check customers
     And enter password
     And click login
 
-    @smoke
+    @smoke @prod
     Scenario: add new customer
       Then click customers
       Then click customers second one
